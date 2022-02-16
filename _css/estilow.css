@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family= Titillium+Web & display=swap');
+@font-face {
+    font-family: 'FonteLogo';
+    src: url('_fonts/bubblegum-sans-regular.otf');
+}
+
+div#interface {
+    width: 1000px;
+    background-color: #ffffff;
+    margin: 20px auto 20px auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    padding: 20px; /* pode ser usado 10px 10px 10px 10px da nos msm*/
+
+}
+p { 
+    text-align: justify; /*Parafrago justificado*/
+    text-indent: 50px; /*inicio de paragrafo*/
+ }
+a {
+    color: forestgreen;
+    text-decoration: none;
+    padding: 10px;
+ }
+ ul {
+    text-align: justify; /*Parafrago justificado*/
+    text-indent: 5px; /*inicio de paragrafo*/
+ }
+ ol{
+    text-align: justify; /*Parafrago justificado*/
+    text-indent: 5px; /*inicio de paragrafo*/ 
+ }
+ 
+ td{
+   text-align: justify; /*Parafrago justificado*/
+   text-indent: 5px; /*inicio de paragrafo*/
+ }
+
+
+ a:hover {
+     text-decoration: underline;   
+ }
+ section#imgLadoA {
+    display: block;
+    width: 700px; /* largura do texto na esquerda*/
+    float: right; /* faz o texto ficar floando na esqueda */
+    
+    padding-right: 100px; /* afasta a borda o quanto quer*/
+        
+ }
+ section#ladoB {
+    display: block;
+    width: 900px; /* largura do texto na esquerda*/
+      
+     }
+
+ article#ladob {
+    font-size: 15pt;
+    color: #606060;
+    float: right;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 10px;
+    margin: 20px 0px 20px 0px;
+ }

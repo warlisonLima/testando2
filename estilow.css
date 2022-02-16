@@ -1,0 +1,147 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family= Titillium+Web & display=swap');
+@font-face {
+    font-family: 'FonteLogo';
+    src: url('_fonts/bubblegum-sans-regular.otf');
+}
+div#interface {
+    width: 1000px;
+    background-color: #ffffff;
+    margin: 20px auto 20px auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    padding: 20px; /* pode ser usado 10px 10px 10px 10px da nos msm*/
+}
+div#interfaceEmenta {
+   width: 1000px;
+   background-color: #ffffff;
+   margin: -20px auto 20px auto;
+   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+   padding: 20px; /* pode ser usado 10px 10px 10px 10px da nos msm*/
+}
+p { 
+    text-align: justify; /*Parafrago justificado*/
+    text-indent: 50px; /*inicio de paragrafo*/
+    font-size: 15pt;
+ }
+a {
+    color: red;    
+    padding: 5px;
+ }
+ ul {
+    text-align: justify; /*Parafrago justificado*/
+    text-indent: 5px; /*inicio de paragrafo*/
+    font-size: 16pt;
+ }
+ li {
+   text-align: justify; /*Parafrago justificado*/
+   text-indent: 5px; /*inicio de paragrafo*/
+   font-size: 18pt;
+}
+ ol{
+    text-align: justify; /*Parafrago justificado*/
+    text-indent: 5px; /*inicio de paragrafo*/
+    font-size: 15pt; 
+ }
+ td{
+   text-align: justify; /*Parafrago justificado*/
+   text-indent: 15px; /*inicio de paragrafo*/
+   font-size: 16pt;
+ } 
+ h3{
+   font-size: 24pt;
+
+ }
+ th{
+    font-size: 18pt;
+    background-color: #afacac;
+    text-align: left;
+ }
+
+
+ aside#ttifto {
+   text-align: center;
+   color: white;
+   font-size: 15pt;
+   background-color: green;
+   border-width: 5px solid #606060;  
+}
+section#vinicio {
+   font-size: 12pt;
+   padding: 15px;
+   margin-top: auto;
+   height: 12px;
+   background-color: rgb(3, 70, 3);
+   color: white;
+}
+/*Instituto Federal do Tocantins*/
+aside#ttifto h1{
+   font-family: 'Titillium+Web & display=swap';
+   display: block;
+   font-size: 40pt;
+   margin: auto -10px auto auto;
+}
+section#nomeMateria h2{
+   font-family: "fonteLogo", sans-serif;
+   display: block;
+   width: 900px;
+   margin-top: -20px;
+   margin-left: -20px;
+   height: 60px;
+   font-size: 40px;
+   text-align: center;
+   background-color: violet;
+}
+section#imgLadob {  
+   display: block;
+   float: right; /* faz o texto ficar floando na esqueda */
+   background-color: white;    
+   margin-right: -20px;
+   margin-top: -20px;
+}
+section#imgwa {  
+   display: block;
+   float: left; /* faz o texto ficar floando na esqueda */
+   background-color: white;    
+   margin-right: -20px;
+   margin-top: -130px;
+}
+article#minhapagina{
+   display: block;
+   height: 60px;
+   font-size: 25pt;
+   font-family: "fonteLogo", sans-serif;
+   color: white;
+   margin-top: -15px;
+   text-align: center;
+   background-color:rgb(3, 70, 3);
+   margin-top: -60px; 
+}
+
+section#ladoBmim {
+   font-family: "fonteLogo", sans-serif;
+   display: block;
+   float: right;
+   width: 700px;
+   height: 300px;
+   text-align: center;
+   background-color: rgb(189, 236, 189);
+}
+
+section#ladoBmim ul{
+   font-size: 16pt;
+   margin-top: -40px;
+}
+h5{
+   margin-top: 0px;
+   font-size: 28pt;
+}
+section#minhafoto {
+   font-family: "fonteLogo", sans-serif;
+   display: block;
+   float: left;
+   width: 200px;
+   height: 300px;
+   font-size: 25pt;
+   text-align: center;
+}
+
